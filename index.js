@@ -8,7 +8,7 @@ const sequelize = require("./src/util/database");
 
 app.use(express.json());
 app.get("/", (req, res) => {
-  res.send("Hello");
+  res.send("Hello World");
 });
 
 app.use("/api/v1/brands", brandRoutes);
